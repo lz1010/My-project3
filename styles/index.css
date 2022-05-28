@@ -1,0 +1,100 @@
+@font-face {
+  font-family: SF_Bold;
+  src: url(/assets/fonts/SFPRODISPLAYBOLD.ttf);
+}
+@font-face {
+  font-family: SF_Medium;
+  src: url(/assets/fonts/SFPRODISPLAYMEDIUM.ttf);
+}
+@font-face {
+  font-family: SF_Regular;
+  src: url(/assets/fonts/SFPRODISPLAYREGULAR.ttf);
+}
+* {
+  margin: 0px;
+}
+
+.body_header {
+  background: rgba(0, 0, 0, 0.92);
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body_header_title {
+  color: #f5f5f7;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: SF_Regular;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+}
+.body_main_div {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.body_main_title {
+  font-family: SF_Bold;
+  font-size: 45px;
+  text-align: center;
+}
+.body_main_title span {
+  font-family: SF_Bold;
+  font-size: 45px;
+}
+.body_main_text {
+  font-size: 28px;
+  text-align: center;
+  font-family: SF_Regular;
+  margin-top: 10px;
+}
+.body_main_img {
+  width: 900px;
+  margin-top: -50px;
+}
+.body_main_div2 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body_main_link-lorem {
+  color: #0066cc;
+  margin-right: 10px;
+  font-size: 19px;
+  font-family: SF_Regular;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.body_main_link-lorem:hover {
+  text-decoration: underline;
+}
+.body_main_link-lorem:visited {
+  color: #0066cc;
+}
+.body_main_link-algo {
+  color: #0066cc;
+  margin-right: 10px;
+  font-size: 19px;
+  font-family: SF_Regular;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.body_main_link-algo:hover {
+  text-decoration: underline;
+}
+.body_main_link-algo:visited {
+  color: #0066cc;
+}
